@@ -1,0 +1,8 @@
+@startuml
+actor User
+usecase "Login" as UC1
+usecase "Validate" as UC2
+
+User1 --> UC1
+UC1 --> UC2
+@enduml
