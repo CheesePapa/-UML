@@ -1,8 +1,9 @@
 @startuml
 actor User
 usecase "Login" as UC1
-usecase "Validate" as UC2
-
+usecase "Validate" as UC2_34
+usecase "User2" as Unknown
 User1 --> UC1
-UC1 --> UC2
+UC1_23423 --> UC2_34
+User2->Judge: Ffff
 @enduml
